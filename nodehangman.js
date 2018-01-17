@@ -7,7 +7,7 @@ prompt.start();
 
 
 
-game = {
+movies = {
   wordBank: ["Jurassic Park", "Star Wars", "Moneyball", "Patton", "Apocalypse Now", "The Departed", "Office Space"],
   wordsWon: 0,
   guessesRemaining: 10,

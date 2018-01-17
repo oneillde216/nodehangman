@@ -47,7 +47,7 @@ game = {
         self.promptUser();
       }
       else if(self.guessesRemaining ==0){
-        console.log("Game over. Correct Word is", self.currentWrd.target);
+        console.log("Game over. Correct Word is", self.currentWord.target);
       } else {
         console.log(self.currentWrd.wordRender());
       }

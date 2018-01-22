@@ -6,5 +6,4 @@ var letter = function(let){
   };
 };
 
-//export the constructor
 module.exports = letter;

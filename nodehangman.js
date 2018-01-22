@@ -47,9 +47,9 @@ movies = {
         self.promptUser();
       }
       else if(self.guessesRemaining ==0){
-        console.log("Game over. Correct Word is", self.currentWord.target);
+        console.log("Game over. Correct Movie is", self.currentWord.target);
       } else {
-        console.log(self.currentWrd.wordRender());
+        console.log(self.currentWord.wordRender());
       }
     });
 
